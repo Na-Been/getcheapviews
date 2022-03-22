@@ -1,0 +1,56 @@
+.table.dataTable thead th {
+    border-bottom: none !important;
+}
+
+.table.dataTable.no-footer {
+    border-bottom: 1px solid rgba(141, 140, 140, 0.425) !important;
+}
+
+.dataTables_length select {
+    padding: 5px 20px;
+    border: 1px solid #80808066;
+    border-radius: 20px;
+}
+.dataTables_filter input {
+    padding: 5px 20px;
+    border: 1px solid #80808066;
+    border-radius: 50px;
+}
+.dataTables_filter input:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.intro-y {
+    margin-bottom: 30px;
+}
+.intro-y input:focus,
+.select2-container--default:focus,
+.select2-selection--single:focus {
+    border-color: blue !important;
+    box-shadow: none !important;
+    border: 1px solid blue !important;
+}
+.fileinput-new {
+    border: 1px solid #80808061;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.select2-container--default,
+.select2-selection--single {
+    height: 40px !important;
+    border-color: #e2e8f0 !important;
+}
+.select2-selection__rendered {
+    line-height: 40px !important;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button.current {
+    border-radius: 50%;
+}
+
+
+.datatable-arrow{
+    font-size: 16px;
+    cursor: pointer;
+}

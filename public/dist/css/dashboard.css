@@ -1,0 +1,238 @@
+html {
+}
+body {
+    margin: 0px;
+    padding: 0px;
+}
+.navbar {
+    /* background:#008CBA !important; */
+    background-color: transparent !important;
+}
+.navbar-nav {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+/* .navbar-nav:after {
+    content: "";
+    position: absolute;
+    width: 20px;
+    bottom: -45px;
+    left: 50%;
+    border-top: 20px solid #fff;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: translate(-50% , -50%);
+    z-index: 1;
+}
+.navbar-nav:before {
+    content: "";
+    position: absolute;
+    width: 21px;
+    bottom: -48px;
+    left: 50%;
+    border-top: 21px solid #000;
+    border-left: 21px solid transparent;
+    border-right: 21px solid transparent;
+    transform: translate(-50% , -50%);
+} */
+@media (max-width: 1400px) {
+    .navbar-nav {
+        display: flex;
+        flex-direction: revert;
+        overflow: scroll;
+    }
+    .order-header {
+        display: flex;
+        overflow-x: scroll;
+    }
+}
+
+.nav-link {
+    width: 98px;
+    height: 60px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #0095ff;
+    font-size: 14px;
+}
+.nav-item .active {
+    background-color: tomato;
+}
+.nav-link:hover {
+    background-color: tomato;
+}
+.nav-link {
+    color: #fff !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar {
+    height: 70px !important;
+}
+.form-control {
+    border-radius: 2px !important;
+    box-shadow: none !important;
+}
+.navbar-default .navbar-nav > .active > a {
+    background: #6495ed !important;
+}
+
+.order-form {
+    width: 100%;
+    margin: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+.order-active a {
+    color: #fff !important;
+}
+label {
+    color: #888;
+    font-size: 12px;
+}
+.services table td,
+th {
+    padding: 10px;
+    border-bottom: 1px solid #8080802e;
+    font-size: 12px;
+}
+ul {
+    padding: 0px;
+}
+li {
+    list-style: none;
+}
+.order-header {
+    display: flex;
+}
+.order-item {
+    padding: 10px 20px;
+    color: #3c3cb5;
+}
+.order-active {
+    background: #cfc9c9;
+}
+#allOrder {
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgb(0 0 0 / 10%);
+}
+#example_length select {
+    border: 1px solid rgba(128, 128, 128, 0.61) !important;
+    height: 30px;
+    border-radius: 5px;
+}
+#example_filter input {
+    border: 1px solid rgba(128, 128, 128, 0.61) !important;
+    height: 30px;
+    border-radius: 5px;
+}
+#allOrder {
+    padding: 40px;
+}
+
+@media (max-width: 992px) {
+    .order-form {
+        width: 100%;
+    }
+    .dataTables_wrapper .dataTables_length,
+    .dataTables_wrapper .dataTables_filter {
+        float: none;
+        text-align: left;
+    }
+    .dataTables_wrapper {
+        overflow-x: scroll;
+    }
+}
+
+.term-title span {
+    position: relative;
+}
+.term-title span::before {
+    content: "";
+    position: absolute;
+    width: 50%;
+    left: 0px;
+    bottom: -5px;
+    border-bottom: 3px solid tomato;
+}
+.termandcondition .term-content {
+    overflow-x: hidden;
+}
+
+.term-no {
+    filter: drop-shadow(0px 6px 1px rgba(207, 50, 0, 0.5));
+}
+.term-no div {
+    display: flex;
+    color: #f01919;
+    padding: 5px 10px;
+    font-size: 18px;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    background-color: white;
+    clip-path: polygon(51% 100%, 0 32%, 100% 32%);
+}
+
+.termleft {
+    position: relative;
+}
+.termleft-shape {
+    clip-path: polygon(
+        0% 0%,
+        0% 100%,
+        25% 100%,
+        25% 25%,
+        75% 25%,
+        75% 75%,
+        25% 75%,
+        25% 100%,
+        100% 100%,
+        100% 0%
+    );
+    background-color: #8080800d;
+    width: 35px;
+    height: 35px;
+}
+.termleft-shape2 {
+    position: absolute;
+    top: 14px;
+    left: 15px;
+    clip-path: polygon(
+        0% 0%,
+        0% 100%,
+        25% 100%,
+        25% 25%,
+        75% 25%,
+        75% 75%,
+        25% 75%,
+        25% 100%,
+        100% 100%,
+        100% 0%
+    );
+    background-color: #8080800d;
+    width: 35px;
+    height: 35px;
+}
+#tabWrap1 li {
+    color: #fff !important;
+    cursor: pointer;
+}
+
+.scene {
+    width: 100%;
+    height: 100%;
+}
+
+.square {
+    width: 100%;
+    height: 100%;
+    background-color: #0379ff;
+    text-align: center;
+    color: #fff;
+    box-shadow: 0 0 25px rgb(0, 0, 0, 0.3);
+}

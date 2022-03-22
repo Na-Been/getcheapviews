@@ -1,0 +1,392 @@
+body {
+    background: #efefef;
+    margin: 0;
+    padding: 0;
+    border: none;
+    font: normal 13px Verdana, sans-serif;
+    color: #222;
+}
+
+button:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.section-title {
+    font-size: 34px;
+    text-align: center;
+}
+
+p {
+    font-size: 16px;
+    color: #888;
+    margin-bottom: 0px;
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1140px !important;
+    }
+}
+
+ul {
+    padding: 0 !important;
+}
+
+ul li {
+    list-style-type: none !important;
+}
+
+ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#header {
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    z-index: 999;
+    transition: 0.5s;
+
+    /* border-bottom: 1px solid #ffffff3b; */
+}
+#header .dropdown-item {
+    padding: 10px 15px;
+}
+
+.nav-link {
+    font-size: 16px;
+    color: #fff !important;
+    padding: 30px 15px !important;
+}
+.navbar-brand {
+    font-size: 24px;
+    padding: 30px 15px !important;
+}
+.banner {
+    position: relative;
+    height: calc(100vh);
+    overflow: hidden;
+}
+.navbar-btn {
+    padding: 10px !important;
+}
+
+.banner-image {
+    height: 100vh;
+    background-repeat: no-repeat;
+    filter: brightness(0.1);
+    background-size: cover;
+}
+
+.banner-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 70%;
+    transform: translate(-50%, -50%);
+}
+
+.banner-content h1 {
+    color: #fff;
+    font-size: 48px;
+    line-height: 1.3em;
+    font-weight: 800;
+}
+
+.banner-content p {
+    color: #ccc;
+    text-align: center;
+    font-weight: normal;
+    font-size: 16px;
+    margin-bottom: 45px !important;
+}
+
+.banner-content button {
+    border-radius: 3px !important;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    width: 180px;
+}
+
+.ourPackages {
+    padding: 60px 0px;
+}
+
+.ourPackages .container {
+    width: 1140px !important;
+}
+
+.section-title {
+    margin-bottom: 50px;
+}
+
+.services {
+    padding: 60px 0px;
+}
+
+.service-card-title {
+    color: #636362;
+    font-size: 18px;
+}
+
+.about {
+    background: #1d4b5b;
+    padding: 60px 0px;
+}
+
+.about .carousel-indicators {
+    position: relative !important;
+}
+
+.about .carousel-indicators button {
+    background: #aa8282 !important;
+}
+
+.market {
+    padding: 60px 0px;
+    box-shadow: 0 5px 10px rgba(136, 136, 136, 0.151);
+}
+
+.hubs {
+    padding: 60px 0px;
+}
+
+.hubs .card {
+    border: none;
+}
+
+.hubs .card p {
+    font-size: 16px;
+    line-height: 1.1rem;
+    color: #888;
+}
+
+.la-check {
+    color: #16ec16;
+}
+
+/* footer */
+
+.footer {
+    background: #191923;
+}
+
+.navbar-brand img {
+    width: 150px;
+}
+
+.header-white .navbar-brand {
+    position: relative !important;
+    top: 0px !important;
+    transition: 0.5s;
+}
+
+.header-white .navbar-brand img {
+    width: 50px !important;
+}
+
+.header-white {
+    background: #fff !important;
+    box-shadow: 0 0 5px 10px rgba(136, 136, 136, 0.151);
+    transition: 0.5s;
+}
+
+.header-white .nav-link {
+    color: #000 !important;
+}
+
+.navbar-toggler {
+    background-color: #fbf9f9e3 !important;
+}
+
+/* contact */
+
+.contact-form {
+    padding: 60px 0px;
+}
+
+.contact-form form {
+    background: #fff;
+    padding: 35px;
+}
+
+.contact-form .container {
+    width: 1140px;
+}
+
+.contact-form label {
+    margin-bottom: 5px !important;
+}
+
+.contact .banner-image {
+    height: 40vh;
+}
+
+.contact-icon i {
+    color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.contact {
+    position: relative;
+}
+
+.page-title {
+    position: absolute;
+    top: 60%;
+    color: #fff;
+    left: 50%;
+    font-weight: 800;
+    text-transform: uppercase;
+    transform: translate(-50%, -50%);
+}
+
+@media (max-width: 992px) {
+    .banner-image {
+        height: 50vh;
+    }
+    .banner-content {
+        width: 100%;
+    }
+}
+
+/* package-card */
+
+.package-card .package-price {
+    font-size: 50px;
+    font-weight: 600;
+    font-family: "Antic Didone", serif;
+}
+
+.package-card {
+    box-shadow: 0 0 10px rgb(0 0 0 / 10%);
+    border: none;
+    padding: 38px;
+    position: relative;
+}
+
+.package-card .card-top h4 {
+    color: #b72b2b;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.purchase {
+    padding: 60px 0px;
+}
+
+.page-title {
+    color: #eee9e9;
+}
+.page-title h1 {
+    font-weight: 800;
+}
+
+.faq-content {
+    padding: 60px 0px;
+}
+
+.accordion-content {
+    border-left: 3px solid #ff5900;
+    padding-left: 40px;
+}
+
+.contact .page-image {
+    background-repeat: no-repeat;
+    filter: brightness(0.3);
+    background-size: cover;
+    height: 220px;
+}
+
+.footer-col-title {
+    font-size: 18px;
+}
+
+.footer ul li {
+    padding-bottom: 5px;
+}
+
+.card li {
+    box-shadow: 0 0 10px rgb(0 0 0 / 10%);
+    border-radius: 15px;
+    padding: 18px 22px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.card li:last-child {
+    box-shadow: 0 10px 30px rgb(0 0 0 / 10%);
+}
+.card li::before {
+    content: "";
+    border-left: 3px solid blue;
+    border-top: 3px solid transparent;
+    border-bottom: 3px solid transparent;
+    border-right: 3px solid transparent;
+    position: absolute;
+    height: 20px;
+    left: 0px;
+}
+.card li::after {
+    content: "";
+    border-right: 3px solid blue;
+    border-top: 3px solid transparent;
+    border-bottom: 3px solid transparent;
+    border-left: 3px solid transparent;
+    position: absolute;
+    height: 20px;
+    right: 0px;
+}
+
+.verify-email {
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.related-products ul li {
+    background-color: red;
+    padding: 10px;
+    margin: 10px 15px;
+}
+
+.account-nav li {
+    border-left: 3px solid tomato;
+}
+
+.navbar-btn {
+    position: relative;
+}
+.navbar-btn::before {
+    content: "";
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    border-bottom: 1px solid tomato;
+}
+.navbar-btn::after {
+    content: "";
+    width: 70%;
+    position: absolute;
+    left: 18%;
+    bottom: -5px;
+    border-bottom: 1px solid tomato;
+}
+
+.footer-sharing {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+}
+.footer-sharing li {
+    padding: 10px;
+    width: 20px;
+}
+
+.footer-sharing li i {
+    font-size: 18px;
+}
